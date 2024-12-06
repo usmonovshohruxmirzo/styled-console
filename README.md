@@ -1,3 +1,7 @@
+Here's an updated version of the documentation with a Vite example included:
+
+---
+
 # @webbro-software/styled-console
 
 `@webbro-software/styled-console` is a JavaScript package that allows you to style console logs with customizable CSS styles. It supports dynamic styling of console messages with the ability to use camelCase property names that will be automatically converted to kebab-case for compatibility with CSS.
@@ -19,15 +23,9 @@ To install the package, run:
 npm install @webbro-software/styled-console
 ```
 
-### Usage
+## Usage
 
-Once installed, you can import the `styledConsole` function to your project and start using it right away.
-
-```javascript
-import styledConsole from "@webbro-software/styled-console";
-```
-
-### API
+Once installed, you can import the `styledConsole` function and start using it right away.
 
 #### `styledConsole(text: string, styles: Object)`
 
@@ -41,7 +39,7 @@ The `styledConsole` function takes two arguments:
 - `text` (string): The message you want to log.
 - `styles` (object): An object where each key-value pair represents a CSS property and its value. The keys should be in camelCase, and they will be automatically converted to kebab-case.
 
-#### Example Usage:
+#### Example Usage
 
 ```javascript
 import styledConsole from "@webbro-software/styled-console";
@@ -60,15 +58,47 @@ styledConsole("This is a styled message!", {
 });
 ```
 
-#### Console Output
+### Using with Vite
 
-The output will be styled according to the CSS properties passed in the `styles` object.
+If you're working on a Vite-based project, integrating `@webbro-software/styled-console` is straightforward.
 
-```text
-Hello, styled world!
-```
+#### Steps:
 
-The message will appear in red text with a yellow background.
+1. **Create a Vite project**:
+
+   ```bash
+   npm create vite@latest my-vite-app
+   cd my-vite-app
+   npm install
+   ```
+
+2. **Install the package**:
+
+   ```bash
+   npm install @webbro-software/styled-console
+   ```
+
+3. **Update `src/main.js` or `src/main.ts`**:
+
+   ```javascript
+   import styledConsole from "@webbro-software/styled-console";
+
+   styledConsole("Hello from Vite!", {
+     color: "blue",
+     fontSize: "16px",
+   });
+   ```
+
+4. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**:
+   Navigate to the URL provided by Vite (e.g., `http://localhost:3000`) and check the browser console for styled logs.
+
+---
 
 ### Converting camelCase to kebab-case
 
@@ -85,36 +115,7 @@ background-color: green;
 font-size: 16px;
 ```
 
-### Example in HTML (Browser)
-
-To use `@webbro-software/styled-console` in the browser, you can include it in your HTML file using a bundler like Webpack, Parcel, or Rollup, or by directly importing the package if it's published on a CDN.
-
-Here’s an example of using it in the browser:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Styled Console Example</title>
-  </head>
-  <body>
-    <script type="module">
-      import styledConsole from "@webbro-software/styled-console";
-
-      styledConsole("Styled Text in Browser", {
-        color: "blue",
-        fontSize: "18px",
-      });
-    </script>
-  </body>
-</html>
-```
-
-### Browser Compatibility
-
-This package is compatible with modern browsers that support ES Modules and JavaScript.
+---
 
 ## Development
 
@@ -127,3 +128,7 @@ If you want to contribute to the development of `@webbro-software/styled-console
 ## License
 
 `@webbro-software/styled-console` is licensed under the ISC License. See LICENSE for more information.
+
+---
+
+Let me know if you'd like to add or modify any details further!
