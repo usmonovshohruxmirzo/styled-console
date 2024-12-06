@@ -9,3 +9,5 @@ function styledConsole(text, styles) {
 
   console.log(`%c${text}`, stylesObj);
 }
+
+module.exports = styledConsole;
