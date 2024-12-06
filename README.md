@@ -1,7 +1,3 @@
-Here's an updated version of the documentation with a Vite example included:
-
----
-
 # @webbro-software/styled-console
 
 `@webbro-software/styled-console` is a JavaScript package that allows you to style console logs with customizable CSS styles. It supports dynamic styling of console messages with the ability to use camelCase property names that will be automatically converted to kebab-case for compatibility with CSS.
