@@ -123,4 +123,4 @@ If you want to contribute to the development of `@webbro-software/styled-console
 
 ## License
 
-`@webbro-software/styled-console` is licensed under the ISC License. See LICENSE for more information.
+MIT License. See [LICENSE](./LICENSE) for more details.
