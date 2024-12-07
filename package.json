@@ -1,14 +1,25 @@
 {
   "name": "@webbro-software/styled-console",
+  "private": false,
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "module": "index.js",
   "scripts": {
-    "build": "tsc"
+    "dev": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbro-software/styled-console.git"
+  },
+  "keywords": [
+    "styling",
+    "log",
+    "styled message",
+    "styled log"
+  ],
+  "description": "A package to display styled messages in the console, enhancing logging aesthetics.",
+  "homepage": "https://github.com/webbro-software/styled-console#readme",
+  "author": "Usmonov Shoxruxmirzo",
+  "license": "MIT"
 }
