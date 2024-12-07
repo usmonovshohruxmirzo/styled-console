@@ -79,11 +79,15 @@ If you're working on a Vite-based project, integrating `@webbro-software/styled-
    ```javascript
    import styledConsole from "@webbro-software/styled-console";
 
-   styledConsole("Hello from Vite!", {
-     color: "blue",
-     fontSize: "16px",
-   });
+     styledConsole("Hello from Vite!", {
+       color: "blue",
+       fontSize: "16px",
+       background: "#fff",
+       padding: "50px"
+     });
    ```
+   ![image](https://github.com/user-attachments/assets/b7dd995d-a5a0-4933-8c40-83cda2ebd119)
+
 
 4. **Run the development server**:
 
