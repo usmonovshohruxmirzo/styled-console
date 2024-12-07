@@ -86,8 +86,6 @@ If you're working on a Vite-based project, integrating `@webbro-software/styled-
        padding: "50px"
      });
    ```
-   ![image](https://github.com/user-attachments/assets/b7dd995d-a5a0-4933-8c40-83cda2ebd119)
-
 
 4. **Run the development server**:
 
@@ -96,7 +94,7 @@ If you're working on a Vite-based project, integrating `@webbro-software/styled-
    ```
 
 5. **Open your browser**:
-   Navigate to the URL provided by Vite (e.g., `http://localhost:3000`) and check the browser console for styled logs.
+   Navigate to the URL provided by Vite (e.g., `http://localhost:5174`) and check the browser console for styled logs.
 
 ---
 
