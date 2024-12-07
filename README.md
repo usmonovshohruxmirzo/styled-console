@@ -23,7 +23,7 @@ npm install @webbro-software/styled-console
 
 Once installed, you can import the `styledConsole` function and start using it right away.
 
-#### `styledConsole(text: string, styles: Object)`
+#### `styledConsole(text, styles)`
 
 The `styledConsole` function takes two arguments:
 
@@ -32,8 +32,8 @@ The `styledConsole` function takes two arguments:
 
 **Parameters**:
 
-- `text` (string): The message you want to log.
-- `styles` (object): An object where each key-value pair represents a CSS property and its value. The keys should be in camelCase, and they will be automatically converted to kebab-case.
+- `text`: The message you want to log.
+- `styles`: An object where each key-value pair represents a CSS property and its value. The keys should be in camelCase, and they will be automatically converted to kebab-case.
 
 #### Example Usage
 
