@@ -33,11 +33,11 @@ function themes(type) {
   }
 }
 
-function styledConsole(text, styles = {}, type = "primary") {
+function styledConsole(text, styles = {}, theme = "primary", delay = 0) {
   const defaultStyles = {
     color: "#fff",
     fontSize: "16px",
-    background: themes(type),
+    background: themes(theme),
     padding: "10px",
   };
 
@@ -48,7 +48,9 @@ function styledConsole(text, styles = {}, type = "primary") {
       .map(([key, value]) => `${camelToKebabCase(key)}: ${value}`)
       .join("; ");
 
-    console.log(`%c${text}`, stylesObj);
+    setTimeout(() => {
+      console.log(`%c${text}`, stylesObj);
+    }, delay);
   } catch (error) {
     if (error instanceof Error) throw new Error(error.message);
   }
