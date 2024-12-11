@@ -171,3 +171,7 @@ If you want to contribute to the development of `@webbro-software/styled-console
 ## License
 
 MIT License. See [LICENSE](./LICENSE) for more details.
+
+---
+
+![NPM Downloads](https://img.shields.io/npm/dw/@webbro-software/sytled-console)
