@@ -3,8 +3,17 @@ function camelToKebabCase(camel) {
 }
 
 function styledConsole(text, styles = {}) {
+  const defaultStyles = {
+    color: "blue",
+    fontSize: "16px",
+    background: "#fff",
+    padding: "50px",
+  };
+
+  const combinedStyles = { ...defaultStyles, ...styles };
+
   try {
-    const stylesObj = Object.entries(styles)
+    const stylesObj = Object.entries(combinedStyles)
       .map(([key, value]) => `${camelToKebabCase(key)}: ${value}`)
       .join("; ");
 
