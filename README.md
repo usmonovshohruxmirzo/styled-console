@@ -174,4 +174,4 @@ MIT License. See [LICENSE](./LICENSE) for more details.
 
 ---
 
-![NPM Downloads](https://img.shields.io/npm/dw/@webbro-software/sytled-console)
+![NPM Downloads](https://img.shields.io/npm/dw/@webbro-software/styled-console)
