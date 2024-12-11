@@ -79,10 +79,12 @@ If you're working on a Vite-based project, integrating `@webbro-software/styled-
    ```javascript
    import styledConsole from "@webbro-software/styled-console";
 
-   styledConsole("Hello from Vite!", {
-     color: "blue",
-     fontSize: "16px",
-   });
+     styledConsole("Hello from Vite!", {
+       color: "blue",
+       fontSize: "16px",
+       background: "#fff",
+       padding: "50px"
+     });
    ```
 
 4. **Run the development server**:
@@ -92,7 +94,7 @@ If you're working on a Vite-based project, integrating `@webbro-software/styled-
    ```
 
 5. **Open your browser**:
-   Navigate to the URL provided by Vite (e.g., `http://localhost:3000`) and check the browser console for styled logs.
+   Navigate to the URL provided by Vite (e.g., `http://localhost:5174`) and check the browser console for styled logs.
 
 ---
 
